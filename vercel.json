@@ -3,7 +3,7 @@
     "builds": [{
         "src": "voice_call_project/wsgi.py",
         "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb","pythonVersion": "3.8" }
+        "config": { "maxLambdaSize": "15mb","version": "3.8" }
     }],
     "routes": [
         {
