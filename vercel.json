@@ -10,5 +10,8 @@
             "src": "/(.*)",
             "dest": "voice_call_project/wsgi.py"
         }
-    ]
+    ],
+    "env": {
+        "VERCEL_PYTHON_VERSION": "3.7"
+      }
 }
